@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message Money {
+  string currency_code = 1; // 3-letter currency code defined in ISO 4217
+  int32 units = 2; 
+  int32 nanos = 3; // decimal
+}
